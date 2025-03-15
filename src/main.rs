@@ -11,9 +11,11 @@ fn main() {
     favorite_emoji('🌹');
 
      // The difference of two entered numbers
-    let value = difference(64, 43);
+    let num1 = 64;
+    let num2 = 32;
+    let value = difference(num1, num2);
 
-    // Thge difference expressed as fraction/decimal
+    // The difference expressed as fraction/decimal
     formatted(value);
 }
 
